@@ -37,6 +37,7 @@ describe('Aupost Postage Delivery', () => {
 })
 
 function inputPlace(element) {
+  // yarra valley fails
   cy.get(element).type(faker.address.cityPrefix())
   cy.get('[ng-repeat*=result]').should('not.contain', 'Searching').then(from => {
     cy.get('[ng-repeat*=result]').first().click()
@@ -44,6 +45,7 @@ function inputPlace(element) {
 }
 
 function checkSizeWeight() {
+  // need to consider volume
   const fakeLength = faker.random.number({ min: 1, max: 100 })
   const fakeWidth = faker.random.number({ min: 1, max: 100 })
   const fakeHeight = faker.random.number({ min: 1, max: 100 })

@@ -18,3 +18,7 @@ import './commands'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+
+const faker = require('faker');
+faker.locale = 'en_AU_ocker';
+window.faker = faker

@@ -1,0 +1,12 @@
+{
+  "name": "aupost",
+  "devDependencies": {
+    "cypress": "^5.2.0",
+    "faker": "^5.1.0"
+  },
+  "scripts": {
+      "run": "cypress run",
+      "open": "cypress open",
+      "aupost-test": "npm run run --spec 'cypress/integration/*.js'"
+  }
+}
