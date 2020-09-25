@@ -14,3 +14,6 @@ npm run aupost-test
 ```
 npm run open
 ```
+
+# Run api test guide
+[Api-test](https://github.com/summernine/DR-Test/tree/master/api-test)
