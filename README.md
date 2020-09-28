@@ -3,6 +3,7 @@ Download repo
 ```
 git clone git@github.com:summernine/DR-Test.git
 cd DR-Test
+npm install
 ```
 
 # Run browserless test
