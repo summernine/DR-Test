@@ -46,9 +46,9 @@ function inputPlace(element) {
 
 function checkSizeWeight() {
   // need to consider volume
-  const fakeLength = faker.random.number({ min: 1, max: 100 })
-  const fakeWidth = faker.random.number({ min: 1, max: 100 })
-  const fakeHeight = faker.random.number({ min: 1, max: 100 })
+  const fakeLength = faker.random.number({ min: 1, max: 80 })
+  const fakeWidth = faker.random.number({ min: 1, max: 80 })
+  const fakeHeight = faker.random.number({ min: 1, max: 80 })
   const fakeWeight = faker.random.number({ min: 1, max: 22 })
 
   cy.get('[name="lengthInput"]').type(fakeLength)
